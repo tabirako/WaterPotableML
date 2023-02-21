@@ -692,6 +692,7 @@ prediction.value_counts()
 
 ### Verification of the ratio of unpotable water is 198/total(=328) = 60.37%, which is close enough to the 60.62% in population
 
+## Show the loss and accuracy change throughout the epochs
 
 ```python
 history.history.get('loss')
